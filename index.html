@@ -1,0 +1,195 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Abdullah Al-Asiri — Data Analyst, MIS Graduate, SQL, Excel and Business Data.">
+  <meta name="theme-color" content="#f5f6f8">
+  <title>Abdullah Al-Asiri | Data Analyst</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="loader" id="loader"><div class="loader-bar"></div></div>
+  <div class="scroll-progress" id="scrollProgress"></div>
+
+  <header class="header" id="header">
+    <div class="container nav">
+      <a class="logo" href="#home" aria-label="Abdullah Al-Asiri home">AA<span>.</span></a>
+      <button class="nav-toggle" id="navToggle" type="button" aria-label="Open menu" aria-expanded="false">Menu</button>
+      <nav class="nav-links" id="navLinks" aria-label="Primary navigation">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#journey">Journey</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero container" id="home">
+      <div class="hero-copy reveal">
+        <div class="eyebrow"><span class="eyebrow-line"></span>Data Analyst / MIS Graduate</div>
+        <h1>Data, business<br><span>and systems.</span></h1>
+        <p class="hero-description">
+          I am Abdullah Al-Asiri, a Management Information Systems graduate building my career in Data Analysis,
+          with a practical foundation in SQL, Excel, business data, and software development.
+        </p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#projects">Explore my work <span>↗</span></a>
+          <a class="btn btn-secondary" href="assets/Abdullah-Al-Asiri-CV.pdf" target="_blank" rel="noopener">View CV</a>
+        </div>
+        <div class="hero-meta">
+          <span>Riyadh, Saudi Arabia</span><span>Available for opportunities</span>
+        </div>
+      </div>
+
+      <div class="hero-visual reveal reveal-right">
+        <div class="visual-grid"></div>
+        <div class="orbit orbit-one"></div>
+        <div class="orbit orbit-two"></div>
+        <div class="portrait-frame">
+          <img src="assets/profile.png" alt="Abdullah Al-Asiri professional portrait">
+        </div>
+        <div class="visual-caption"><strong>Abdullah Al-Asiri</strong><small>Data Analyst</small></div>
+      </div>
+    </section>
+
+    <section class="intro-strip">
+      <div class="container intro-grid reveal">
+        <span class="section-number">Professional direction</span>
+        <p>My direction is clear: strengthen analytical skills, understand the business behind the data, and turn information into useful decisions.</p>
+      </div>
+    </section>
+
+    <section class="section container" id="about">
+      <div class="section-head reveal"><span>Profile</span><h2>About</h2></div>
+      <div class="about-grid">
+        <div class="about-statement reveal">
+          <p>I started with <em>information systems</em>. I am now building a career around <em>data analysis</em>.</p>
+        </div>
+        <div class="about-copy reveal reveal-delay-1">
+          <p>
+            I graduated with a Bachelor's degree in Management Information Systems in June 2026. My academic background connects technology with business processes, databases, and information systems.
+          </p>
+          <p>
+            My current track is focused on SQL, Excel, data querying, data cleaning, and Power BI. My previous development work adds a technical perspective that helps me understand how applications and databases support real business workflows.
+          </p>
+          <div class="about-facts">
+            <div><strong>2026</strong><span>Graduation</span></div>
+            <div><strong>MIS</strong><span>Academic background</span></div>
+            <div><strong>SQL</strong><span>Current focus</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-soft" id="skills">
+      <div class="container">
+        <div class="section-head reveal"><span>Capabilities</span><h2>Skills</h2></div>
+        <div class="skills-grid">
+          <article class="skill reveal"><span class="skill-index">01</span><h3>Data Analysis</h3><p>SQL, data querying, data cleaning, analytical problem solving.</p><div class="skill-tags"><span>SQL</span><span>MySQL</span><span>SSMS</span><span>Oracle</span></div></article>
+          <article class="skill reveal reveal-delay-1"><span class="skill-index">02</span><h3>Excel</h3><p>Practical spreadsheet work for organizing, exploring, and analyzing business data.</p><div class="skill-tags"><span>Formulas</span><span>Lookups</span><span>Pivot Tables</span></div></article>
+          <article class="skill reveal reveal-delay-2"><span class="skill-index">03</span><h3>Visualization</h3><p>Building Power BI capability for dashboards and data visualization.</p><div class="skill-tags"><span>Power BI</span><span>Dashboards</span><span>In progress</span></div></article>
+          <article class="skill reveal"><span class="skill-index">04</span><h3>Technical Foundation</h3><p>Web development experience that supports systems thinking and technical communication.</p><div class="skill-tags"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>Tailwind</span></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container" id="projects">
+      <div class="section-head reveal"><span>Portfolio</span><h2>Selected work</h2></div>
+      <div class="projects-intro reveal">
+        <p>A curated view of the work that best explains my technical foundation, business thinking, and current direction. Live links are included only where a working public version is available.</p>
+        <div class="filter-bar" role="group" aria-label="Filter projects">
+          <button class="filter active" type="button" data-filter="all">All</button>
+          <button class="filter" type="button" data-filter="web">Web</button>
+          <button class="filter" type="button" data-filter="business">Business</button>
+          <button class="filter" type="button" data-filter="systems">Systems</button>
+          <button class="filter" type="button" data-filter="booking">Booking</button>
+          <button class="filter" type="button" data-filter="data">Data & Analytics</button>
+        </div>
+      </div>
+
+      <div class="projects-grid" id="projectsGrid">
+        <article class="project-card reveal" data-category="web systems" data-title="Student Housing Web Application">
+          <div class="project-image project-sakan"><span>SAKAN</span><small>Graduation Project</small></div>
+          <div class="project-content"><div class="project-top"><span>Graduation project</span><span>Web / Systems</span></div><h3>Student Housing Web Application</h3><p>Graduation project connecting students and expatriates with safer housing options. Awarded first place among graduation projects in the Programming specialization.</p><div class="project-bottom"><div class="tags"><span>Web</span><span>Systems</span></div><span class="project-status">Case study · No public link</span></div></div>
+        </article>
+
+        <article class="project-card reveal reveal-delay-1" data-category="web business" data-title="Aura Shawarma">
+          <div class="project-image project-aura"><span>AURA</span><small>Business Website</small></div>
+          <div class="project-content"><div class="project-top"><span>Business website</span><span>Web / Business</span></div><h3>Aura Shawarma</h3><p>A complete restaurant experience with digital menu, offers, gallery, reviews, contact information, and responsive presentation.</p><div class="project-bottom"><div class="tags"><span>Frontend</span><span>Business</span></div><a class="project-link" href="https://start-kappa-ebon.vercel.app/" target="_blank" rel="noopener">Live project ↗</a></div></div>
+        </article>
+
+        <article class="project-card reveal" data-category="booking web business" data-title="ATHEEL">
+          <div class="project-image project-atheel"><span>ATHEEL</span><small>Hospitality Platform</small></div>
+          <div class="project-content"><div class="project-top"><span>Hospitality platform</span><span>Booking / Business</span></div><h3>ATHEEL</h3><p>Saudi hospitality platform concept for discovering and booking hotels and luxury resorts across key destinations.</p><div class="project-bottom"><div class="tags"><span>Booking</span><span>Business</span></div><a class="project-link" href="https://hotels-pearl.vercel.app/" target="_blank" rel="noopener">Live project ↗</a></div></div>
+        </article>
+
+        <article class="project-card reveal reveal-delay-1" data-category="booking web systems" data-title="Al Khaleej Booking">
+          <div class="project-image project-khaleej"><span>AL KHALEEJ</span><small>Booking Platform</small></div>
+          <div class="project-content"><div class="project-top"><span>Booking platform</span><span>Booking / Systems</span></div><h3>Al Khaleej Booking</h3><p>Hotel booking project for the Saudi market. Project details and final feature description can be updated here later.</p><div class="project-bottom"><div class="tags"><span>Booking</span><span>Systems</span></div><a class="project-link" href="https://al-khaleej-booking.vercel.app/" target="_blank" rel="noopener">Live project ↗</a></div></div>
+        </article>
+
+        <article class="project-card reveal" data-category="systems business" data-title="Inventory Dashboard">
+          <div class="project-image project-inventory"><span>INVENTORY</span><small>Dashboard</small></div>
+          <div class="project-content"><div class="project-top"><span>Dashboard</span><span>Systems / Business</span></div><h3>Inventory Dashboard</h3><p>Dashboard project placeholder. Add the final description, screenshot, GitHub repository, or live link when the project is ready to publish.</p><div class="project-bottom"><div class="tags"><span>Dashboard</span><span>Systems</span></div><span class="project-status">Link to update</span></div></div>
+        </article>
+
+        <article class="project-card reveal reveal-delay-1" data-category="booking systems business" data-title="Nuzul">
+          <div class="project-image project-nuzul"><span>NUZUL</span><small>Hotel Booking MVP</small></div>
+          <div class="project-content"><div class="project-top"><span>Personal project</span><span>Booking / Systems</span></div><h3>Nuzul</h3><p>Hotel booking platform MVP for the Saudi market, with customer, hotel admin, and super admin roles and a focus on booking, ratings, and occupancy data.</p><div class="project-bottom"><div class="tags"><span>Next.js</span><span>Booking</span></div><span class="project-status">In progress · No public link</span></div></div>
+        </article>
+        <article class="project-card project-placeholder reveal" data-category="data" data-title="Data Analysis Case Study">
+          <div class="project-image project-data"><span>DATA</span><small>Coming soon</small></div>
+          <div class="project-content"><div class="project-top"><span>Next milestone</span><span>Data / Analytics</span></div><h3>Data Analysis Case Study</h3><p>This space is reserved for a finished SQL, Excel, Power BI, or data-analysis project. It will be added when there is a real case study to show.</p><div class="project-bottom"><div class="tags"><span>Data Analysis</span><span>SQL</span></div><span class="project-status">Placeholder</span></div></div>
+        </article>
+      </div>
+      <p class="empty-state" id="emptyState">No projects in this category yet. Add future work here.</p>
+    </section>
+
+    <section class="section section-dark" id="journey">
+      <div class="container">
+        <div class="section-head section-head-light reveal"><span>Career path</span><h2>Professional journey</h2></div>
+        <div class="journey">
+          <div class="journey-row reveal"><div class="journey-year">2026</div><div><small>Education</small><h3>Management Information Systems</h3><p>Bachelor's degree with a foundation in information systems, business, databases, and technology.</p></div></div>
+          <div class="journey-row reveal reveal-delay-1"><div class="journey-year">01</div><div><small>Technical foundation</small><h3>Web development & real projects</h3><p>Built practical web and system projects, developing an understanding of interfaces, application structure, and business requirements.</p></div></div>
+          <div class="journey-row reveal reveal-delay-2"><div class="journey-year">02</div><div><small>Current track</small><h3>SQL & Data Analysis</h3><p>Strengthening SQL, Excel, data querying, data cleaning, and analytical thinking through structured practice and datasets.</p></div></div>
+          <div class="journey-row reveal"><div class="journey-year">03</div><div><small>Next capability</small><h3>Power BI & visualization</h3><p>Building dashboard and visualization skills to complete the core Data Analyst toolkit.</p></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container personal" id="personal">
+      <div class="section-head reveal"><span>Personal</span><h2>Beyond work</h2></div>
+      <div class="personal-grid">
+        <div class="personal-copy reveal"><h3>A professional profile should still feel human.</h3><p>Outside work and learning, I enjoy photography, gaming, coffee, and creative interests. They are part of the person behind the work, not just items on a CV.</p></div>
+        <div class="principles reveal reveal-delay-1"><span>Approach</span><strong>Learn<br>Build<br>Analyze<br>Improve</strong></div>
+      </div>
+    </section>
+
+    <section class="focus-band">
+      <div class="container focus-grid reveal">
+        <div><span class="eyebrow light">Current focus</span><h2>Becoming a stronger Data Analyst.</h2></div>
+        <p>SQL first. Excel with purpose. Power BI next. Business context throughout.</p>
+      </div>
+    </section>
+
+    <section class="section container contact" id="contact">
+      <div class="section-head reveal"><span>Connect</span><h2>Contact</h2></div>
+      <div class="contact-grid">
+        <div class="contact-copy reveal"><p class="eyebrow">Open to opportunities</p><h3>Let's build something useful.</h3><p>Available for entry-level Data Analyst, Business/Data Support, and related opportunities.</p></div>
+        <div class="contact-list reveal reveal-delay-1">
+          <a href="mailto:abdoassiri707@gmail.com"><span>Email</span><strong>abdoassiri707@gmail.com</strong><b>↗</b></a>
+          <a href="https://www.linkedin.com/in/abdullah-assiri-04a214325/" target="_blank" rel="noopener"><span>LinkedIn</span><strong>Abdullah Al-Asiri</strong><b>↗</b></a>
+          <a href="https://github.com/cqrz1" target="_blank" rel="noopener"><span>GitHub</span><strong>github.com/cqrz1</strong><b>↗</b></a>
+          <a href="tel:+966592828120"><span>Saudi phone</span><strong>+966 59 282 8120</strong><b>↗</b></a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer container"><span>Abdullah Al-Asiri</span><span>Data Analyst / MIS</span><span>© <span id="year"></span></span></footer>
+  <script src="script.js"></script>
+</body>
+</html>
